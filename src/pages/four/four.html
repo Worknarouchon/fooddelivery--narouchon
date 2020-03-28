@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{food.name}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <h4><p>Id: {{food.id}}</p></h4>
+  <p>ชื่ออาหาร: {{food.name}}</p>
+  <p>ส่วนผสม: {{food.detail}}</p>
+  <h1><p>{{food.price}}</p></h1>
+  <p>
+    <img [src]="food.img" alt="">
+  </p> 
+</ion-content>
